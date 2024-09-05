@@ -1,7 +1,7 @@
 package server_test
 
 import (
-	"gocloud/src/api/server"
+	"gocloud/src/server"
 	"log/slog"
 	"net"
 	"net/http"

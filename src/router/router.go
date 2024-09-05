@@ -1,6 +1,7 @@
 package router
 
 import (
+	"gocloud/src/health"
 	"log/slog"
 	"net/http"
 
@@ -14,8 +15,7 @@ type Config struct {
 }
 
 func NewRouter(cfg Config) http.Handler {
-
-	r := chi.NewRouter()
-
-	return r
+	router := chi.NewRouter()
+	health.RegisterHandlers(router)
+	return router
 }

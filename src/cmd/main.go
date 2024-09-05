@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gocloud/src/api/router"
-	"gocloud/src/api/server"
+	"gocloud/src/router"
+	"gocloud/src/server"
+
 	"log/slog"
 	"os"
 	"time"

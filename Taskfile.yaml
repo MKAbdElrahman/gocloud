@@ -3,4 +3,5 @@ env:
   CMD_DIR: ./src/api/cmd/
 tasks:
    run: go run $CMD_DIR
-   test: go test ./... -count 1 -cover
+   test: go test ./... -count 1
+   test-short: go test ./... -count 1  -short

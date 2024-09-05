@@ -5,6 +5,7 @@ go 1.23.0
 require (
 	github.com/charmbracelet/log v0.4.0
 	github.com/go-chi/chi/v5 v5.1.0
+	github.com/matryer/is v1.4.1
 )
 
 require (
